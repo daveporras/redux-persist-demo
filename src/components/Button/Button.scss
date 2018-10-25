@@ -1,0 +1,16 @@
+.button {
+
+  padding: 1rem;
+  background-color: #61dafb;
+  color: #000;
+  border-radius: .2rem;
+  cursor: pointer;
+  display: inline-block;
+  width: fit-content;
+  height: fit-content;
+
+  &:not(:active) {
+    box-shadow: 0 0.2rem 0.5rem #fff;
+  }
+
+}

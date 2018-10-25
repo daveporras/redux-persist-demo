@@ -1,0 +1,21 @@
+.container {
+  min-height: 100vh;
+
+  &-row {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    grid-column-gap: 2rem;
+  }
+
+  .content {
+
+    span {
+      display: block;
+    }
+  }
+}
+
+.link {
+  color: #61dafb;
+}

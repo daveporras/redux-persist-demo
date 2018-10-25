@@ -1,0 +1,13 @@
+$color-white: #ffffff;
+$color-black: #000000;
+
+.header {
+
+  display: flex;
+  max-height: 1.5rem;
+  padding: 2rem;
+  border-bottom: .1rem solid $color-white;
+  box-shadow: 0 .1rem 2rem $color-white;
+  background-color: rgba($color-black, .2);
+
+}
